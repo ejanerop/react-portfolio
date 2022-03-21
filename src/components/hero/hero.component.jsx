@@ -2,19 +2,19 @@ import "./hero.component.scss";
 
 export default function Hero() {
     return (
-        <section class="bgimage" id="home">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                        <h2 class="hero_title">Hi, I'm Eric!</h2>
-                        <p class="hero_desc">
+        <section className="bgimage" id="home">
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h2 className="hero_title">Hi, I'm Eric!</h2>
+                        <p className="hero_desc">
                             I am a fullstack software developer.
                         </p>
                         <span>
-                            <i class="fa fa-envelope"></i>
+                            <i className="fa fa-envelope"></i>
                             &nbsp;ejanerop97@gmail.com
                         </span>
-                        <div class="social-icons-container">
+                        <div className="social-icons-container">
                             <a
                                 target="_blank"
                                 rel="noopener noreferrer"
