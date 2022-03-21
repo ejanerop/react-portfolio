@@ -8,13 +8,13 @@ import "react-vertical-timeline-component/style.min.css";
 export default function Experience() {
     return (
         <section id="experience-section">
-            <h1 class="display-5 lh-1 mb-5">Experience</h1>
+            <h1 className="display-5 lh-1 mb-5">Experience</h1>
             <VerticalTimeline lineColor={"#1F1F1F"}>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="Mar. 2021 - Present"
                     iconStyle={{background: "rgb(108,117,125)", color: "#fff"}}
-                    icon={<i className="fas fa-code experience-icon"></i>}>
+                    icon={<i className="fas fa-code timeline-icon"></i>}>
                     <h3 className="vertical-timeline-element-title mb-2">
                         Software Engineer
                     </h3>
@@ -39,7 +39,7 @@ export default function Experience() {
                 <VerticalTimelineElement
                     iconStyle={{background: "rgb(108,117,125)", color: "#fff"}}
                     icon={
-                        <i className="fas fa-hourglass-start experience-icon"></i>
+                        <i className="fas fa-hourglass-start timeline-icon"></i>
                     }
                 />
             </VerticalTimeline>
