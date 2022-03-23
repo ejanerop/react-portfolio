@@ -10,36 +10,6 @@ export default function Hero() {
                         <p className="hero_desc">
                             I am a fullstack software developer.
                         </p>
-                        <span>
-                            <i className="fa fa-envelope"></i>
-                            &nbsp;ejanerop97@gmail.com
-                        </span>
-                        <div className="social-icons-container">
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.facebook.com/profile.php?id=100009854975845">
-                                <i className="fab fa-facebook-f"></i>
-                            </a>
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://twitter.com/eric_j_p_">
-                                <i className="fab fa-twitter"></i>
-                            </a>
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.linkedin.com/in/eric-janero/">
-                                <i className="fab fa-linkedin-in"></i>
-                            </a>
-                            <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://github.com/ejanerop">
-                                <i className="fab fa-github"></i>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
