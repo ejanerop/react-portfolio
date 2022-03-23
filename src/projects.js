@@ -4,6 +4,9 @@ import Quotes1 from "./assets/quotes1.png";
 import Quotes2 from "./assets/quotes2.png";
 import Gitlab from "./assets/gitlab3.png";
 import Gitlab2 from "./assets/gitlab4.png";
+import Gdrive1 from "./assets/gdrive1.png";
+import Gdrive2 from "./assets/gdrive2.png";
+import Coffee1 from "./assets/coffee1.png";
 
 const projects = [
     {
@@ -15,6 +18,43 @@ const projects = [
             frontend: "https://github.com/ejanerop/gitlab-front",
         },
         images: [Gitlab, Gitlab2],
+        startDate: "2021",
+        technologies: [
+            {
+                class: "fab fa-angular",
+                name: "Angular",
+            },
+            {
+                class: "fab fa-laravel",
+                name: "Laravel",
+            },
+        ],
+    },
+    {
+        title: "Coffee Machine",
+        description:
+            "Console application built with PHP that from a few input parameters (drink type, amount of money, number of sugars, extra hot check) is capable to order a drink and show a cool message of the desired drink.",
+        url: {
+            github: "https://github.com/ejanerop/CoffeeMaker",
+        },
+        images: [Coffee1],
+        startDate: "2021",
+        technologies: [
+            {
+                class: "fab fa-php",
+                name: "PHP",
+            },
+        ],
+    },
+    {
+        title: "GDrive Manager",
+        description:
+            "App built with Angular and Laravel that uses the Google Drive API to bulk remove the files/folders permissions of a user in a drive.",
+        url: {
+            backend: "https://github.com/ejanerop/gdrive-backend",
+            frontend: "https://github.com/ejanerop/gdrive-frontend",
+        },
+        images: [Gdrive1, Gdrive2],
         startDate: "2021",
         technologies: [
             {
@@ -63,10 +103,6 @@ const projects = [
         images: [Quotes1, Quotes2],
         startDate: "2022",
         technologies: [
-            {
-                class: "fab fa-angular",
-                name: "Angular",
-            },
             {
                 class: "fab fa-react",
                 name: "React",
