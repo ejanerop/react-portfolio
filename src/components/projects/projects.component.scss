@@ -1,0 +1,39 @@
+section#projects {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 0;
+
+    .section-title {
+        align-self: center;
+    }
+}
+
+.modal-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .modal-title {
+        padding: 5px 5px 0 5px;
+    }
+
+    .code-links {
+        display: flex;
+        flex-wrap: nowrap;
+
+        .source-button {
+            border: 1px solid black;
+            text-decoration: none;
+            font-size: 1em;
+            padding: 0.4rem;
+            border-radius: 5em;
+            margin: 0 0 0 10px;
+
+            &:hover {
+                background-color: black;
+                color: #fff;
+            }
+        }
+    }
+}
