@@ -12,6 +12,7 @@ import Quotes1 from "./assets/quotes1.png";
 import Quotes2 from "./assets/quotes2.png";
 import Gitlab from "./assets/gitlab3.png";
 import Gitlab2 from "./assets/gitlab4.png";
+import Footer from "./components/footer/footer.component";
 
 function App() {
     let projects = [
@@ -96,6 +97,8 @@ function App() {
             <Experience />
 
             <Projects projects={projects} />
+
+            <Footer />
         </div>
     );
 }
