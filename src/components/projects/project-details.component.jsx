@@ -18,7 +18,7 @@ class ProjectDetailsModal extends Component {
                     return (
                         <li className="list-inline-item" key={i}>
                             <span>
-                                <div className="text-center">
+                                <div className="text-center tech-container">
                                     <i className={icons.class}>
                                         <p
                                             className="text-center"
