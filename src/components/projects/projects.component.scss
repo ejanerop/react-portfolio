@@ -30,6 +30,11 @@ section#projects {
             border-radius: 5em;
             margin: 0 0 0 10px;
 
+            i {
+                min-width: 20px;
+                text-align: center;
+            }
+
             &:hover {
                 background-color: black;
                 color: #fff;
