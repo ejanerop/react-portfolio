@@ -9,10 +9,10 @@ const Footer = () => {
     };
     return (
         <footer id="site-footer">
-            <div class="footer-content">
-                <div class="container">
-                    <div class="down-below">
-                        <div class="contact">
+            <div className="footer-content">
+                <div className="container">
+                    <div className="down-below">
+                        <div className="contact">
                             <a
                                 href="mailto:ejanerop97@gmail.com"
                                 title="Send me an email"
@@ -22,14 +22,14 @@ const Footer = () => {
                             </a>
                         </div>
 
-                        <ul class="links">
+                        <ul className="links">
                             <li>
                                 <a
                                     href="https://github.com/ejanerop97"
                                     title="@ejanerop97 on GitHub"
                                     rel="me noreferrer"
                                     target="_blank">
-                                    <i class="fab fa-github"></i>
+                                    <i className="fab fa-github"></i>
                                 </a>
                             </li>
                             <li>
@@ -38,7 +38,7 @@ const Footer = () => {
                                     title="@eric_j_p_ on twitter"
                                     rel="me noreferrer"
                                     target="_blank">
-                                    <i class="fab fa-twitter"></i>
+                                    <i className="fab fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
@@ -47,7 +47,7 @@ const Footer = () => {
                                     rel="me noreferrer"
                                     title="Eric Janero on Instagram"
                                     target="_blank">
-                                    <i class="fab fa-instagram"></i>
+                                    <i className="fab fa-instagram"></i>
                                 </a>
                             </li>
                             <li>
@@ -56,7 +56,7 @@ const Footer = () => {
                                     rel="me noreferrer"
                                     title="Eric Janero on Facebook"
                                     target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
+                                    <i className="fab fa-facebook-f"></i>
                                 </a>
                             </li>
                             <li>
@@ -65,16 +65,16 @@ const Footer = () => {
                                     rel="me noreferrer"
                                     title="Eric Janero on LinkedIn"
                                     target="_blank">
-                                    <i class="fab fa-linkedin-in"></i>
+                                    <i className="fab fa-linkedin-in"></i>
                                 </a>
                             </li>
                         </ul>
 
                         <button
                             type="button"
-                            class="to-top"
+                            className="to-top"
                             onClick={scrollToTop}>
-                            <i class="fa fa-arrow-up"></i>
+                            <i className="fa fa-arrow-up"></i>
                         </button>
                     </div>
                 </div>
