@@ -25,8 +25,8 @@ const Footer = () => {
                         <ul className="links">
                             <li>
                                 <a
-                                    href="https://github.com/ejanerop97"
-                                    title="@ejanerop97 on GitHub"
+                                    href="https://github.com/ejanerop"
+                                    title="@ejanerop on GitHub"
                                     rel="me noreferrer"
                                     target="_blank">
                                     <i className="fab fa-github"></i>
