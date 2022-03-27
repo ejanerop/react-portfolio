@@ -1,3 +1,4 @@
+import SocialIcon from "../social-icon/social-icon.component";
 import "./footer.component.scss";
 
 const Footer = () => {
@@ -24,49 +25,39 @@ const Footer = () => {
 
                         <ul className="links">
                             <li>
-                                <a
-                                    href="https://github.com/ejanerop"
+                                <SocialIcon
+                                    url="https://github.com/ejanerop"
                                     title="@ejanerop on GitHub"
-                                    rel="me noreferrer"
-                                    target="_blank">
-                                    <i className="fab fa-github"></i>
-                                </a>
+                                    icon="fa-github"
+                                />
                             </li>
                             <li>
-                                <a
-                                    href="https://twitter.com/@eric_j_p_"
+                                <SocialIcon
+                                    url="https://twitter.com/@eric_j_p_"
                                     title="@eric_j_p_ on twitter"
-                                    rel="me noreferrer"
-                                    target="_blank">
-                                    <i className="fab fa-twitter"></i>
-                                </a>
+                                    icon="fa-twitter"
+                                />
                             </li>
                             <li>
-                                <a
-                                    href="https://www.instagram.com/ejanero/"
-                                    rel="me noreferrer"
+                                <SocialIcon
+                                    url="https://www.instagram.com/ejanero/"
                                     title="Eric Janero on Instagram"
-                                    target="_blank">
-                                    <i className="fab fa-instagram"></i>
-                                </a>
+                                    icon="fa-instagram"
+                                />
                             </li>
                             <li>
-                                <a
-                                    href="https://www.facebook.com/profile.php?id=100009854975845"
-                                    rel="me noreferrer"
+                                <SocialIcon
+                                    url="https://www.facebook.com/profile.php?id=100009854975845"
                                     title="Eric Janero on Facebook"
-                                    target="_blank">
-                                    <i className="fab fa-facebook-f"></i>
-                                </a>
+                                    icon="fa-facebook-f"
+                                />
                             </li>
                             <li>
-                                <a
-                                    href="https://www.linkedin.com/in/eric-janero"
-                                    rel="me noreferrer"
+                                <SocialIcon
+                                    url="https://www.linkedin.com/in/eric-janero"
                                     title="Eric Janero on LinkedIn"
-                                    target="_blank">
-                                    <i className="fab fa-linkedin-in"></i>
-                                </a>
+                                    icon="fa-linkedin-in"
+                                />
                             </li>
                         </ul>
 
