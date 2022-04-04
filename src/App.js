@@ -7,8 +7,11 @@ import Projects from "./components/projects/projects.component";
 import Skills from "./components/skills/skills.component";
 import Footer from "./components/footer/footer.component";
 import projects from "./projects";
+import Thumb from "./assets/thumb_img.webp";
 
 function App() {
+    document.querySelector("meta#twitter-image").setAttribute("content", Thumb);
+    document.querySelector("meta#og-image").setAttribute("content", Thumb);
     return (
         <div className="App">
             <Navbar />
