@@ -1,5 +1,4 @@
 import "./hero.component.scss";
-import Thumb from "../../assets/thumb_img.webp";
 
 export default function Hero() {
     return (
