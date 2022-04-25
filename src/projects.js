@@ -7,6 +7,9 @@ import Gitlab2 from "./assets/gitlab3.png";
 import Gdrive1 from "./assets/gdrive1.png";
 import Gdrive2 from "./assets/gdrive2.png";
 import Coffee1 from "./assets/coffee1.png";
+import UltimoBote1 from "./assets/ultimo-bote.png";
+import UltimoBote2 from "./assets/ultimo-bote2.png";
+import UltimoBote3 from "./assets/ultimo-bote3.png";
 
 const projects = [
     {
@@ -106,6 +109,23 @@ const projects = [
             {
                 class: "fab fa-react",
                 name: "React",
+            },
+        ],
+    },
+    {
+        title: "ÚltimoBote",
+        description:
+            "App built with Angular and Firebase that uses the Firestore Database to store soccer player and their stats, and the matchdays. It also keep records of the goals scored on each matchday.",
+        url: {
+            preview: "https://ultimo-bote-app.web.app/",
+            github: "https://github.com/ejanerop/ultimo-bote",
+        },
+        images: [UltimoBote1, UltimoBote2, UltimoBote3],
+        startDate: "2022",
+        technologies: [
+            {
+                class: "fab fa-angular",
+                name: "Angular",
             },
         ],
     },
