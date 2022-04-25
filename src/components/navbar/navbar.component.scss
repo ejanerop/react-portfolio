@@ -8,6 +8,10 @@ a.navbar-brand {
     text-decoration: none;
 }
 
+a.nav-link.active {
+    color: #0a58ca;
+}
+
 .navbar {
     transition: all 0.7s ease-out;
 

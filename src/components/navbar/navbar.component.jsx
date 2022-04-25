@@ -3,8 +3,27 @@ import "./navbar.component.scss";
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
+    let section = document.querySelectorAll("section");
 
     const changeBackground = () => {
+        section.forEach((sec) => {
+            let top = window.scrollY;
+            let offset = sec.offsetTop;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute("id");
+
+            if (top >= offset && top < offset + height) {
+                let links = document.querySelectorAll("a.nav-link");
+                links.forEach((li) => {
+                    li.classList.remove("active");
+                    if (li.getAttribute("href") == `#${id}`) {
+                        li.classList.add("active");
+                    }
+                });
+                let link = document.querySelector("a[href='#" + id + "']");
+                link.classList.add("active");
+            }
+        });
         if (window.scrollY >= 66) {
             setNavbar(true);
         } else {
@@ -16,7 +35,7 @@ const Navbar = () => {
         changeBackground();
         // adding the event when scroll change background
         window.addEventListener("scroll", changeBackground);
-    });
+    }, []);
 
     return (
         <nav
