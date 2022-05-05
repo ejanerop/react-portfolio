@@ -1,5 +1,6 @@
 import "./about.component.scss";
 import Picture from "./../../eric.jpg";
+import CV from "./../../assets/eric_resume_en.pdf";
 
 export default function About() {
     return (
@@ -29,6 +30,13 @@ export default function About() {
                             creating software that helps and impacts many
                             people.
                         </p>
+                        <a
+                            href={CV}
+                            target="_blank"
+                            className="btn btn-outline-dark cv-btn"
+                            rel="noreferrer">
+                            Download CV <i className="fas fa-download"></i>
+                        </a>
                     </div>
                 </div>
             </div>
