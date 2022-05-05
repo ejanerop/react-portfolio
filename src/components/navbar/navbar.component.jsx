@@ -16,7 +16,7 @@ const Navbar = () => {
                 let links = document.querySelectorAll("a.nav-link");
                 links.forEach((li) => {
                     li.classList.remove("active");
-                    if (li.getAttribute("href") == `#${id}`) {
+                    if (li.getAttribute("href") === `#${id}`) {
                         li.classList.add("active");
                     }
                 });
