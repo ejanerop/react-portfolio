@@ -35,7 +35,7 @@ const Navbar = () => {
         changeBackground();
         // adding the event when scroll change background
         window.addEventListener("scroll", changeBackground);
-    }, []);
+    });
 
     return (
         <nav
