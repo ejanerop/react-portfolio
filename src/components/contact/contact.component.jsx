@@ -55,11 +55,13 @@ const Contact = () => {
                         <input type="hidden" name="form-name" value="contact" />
                         <input
                             type="text"
+                            name="name"
                             className="form-control form-control-lg"
                             placeholder="Name"
                         />
                         <input
                             type="email"
+                            name="email"
                             className="form-control form-control-lg mt-3"
                             placeholder="Email"
                         />
@@ -67,8 +69,8 @@ const Contact = () => {
                             <textarea
                                 className="form-control"
                                 rows="5"
-                                id="comment"
-                                name="text"
+                                id="message"
+                                name="message"
                                 style={{resize: "none"}}
                                 placeholder="Your message"></textarea>
                         </div>
