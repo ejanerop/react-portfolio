@@ -8,6 +8,7 @@ import Skills from "./components/skills/skills.component";
 import Footer from "./components/footer/footer.component";
 import projects from "./projects";
 import Thumb from "./assets/thumb_img.webp";
+import Contact from "./components/contact/contact.component";
 
 function App() {
     document.querySelector("meta#twitter-image").setAttribute("content", Thumb);
@@ -25,6 +26,8 @@ function App() {
             <Experience />
 
             <Projects projects={projects} />
+
+            <Contact />
 
             <Footer />
         </div>
