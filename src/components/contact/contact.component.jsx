@@ -58,12 +58,14 @@ const Contact = () => {
                             name="name"
                             className="form-control form-control-lg"
                             placeholder="Name"
+                            required
                         />
                         <input
                             type="email"
                             name="email"
                             className="form-control form-control-lg mt-3"
                             placeholder="Email"
+                            required
                         />
                         <div className="mb-3 mt-3">
                             <textarea
@@ -72,6 +74,7 @@ const Contact = () => {
                                 id="message"
                                 name="message"
                                 style={{resize: "none"}}
+                                required
                                 placeholder="Your message"></textarea>
                         </div>
                         <button
