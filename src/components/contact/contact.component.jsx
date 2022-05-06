@@ -51,7 +51,8 @@ const Contact = () => {
                 </div>
 
                 <div className="col-lg-6">
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form name="contact" method="POST">
+                        <input type="hidden" name="form-name" value="contact" />
                         <input
                             type="text"
                             className="form-control form-control-lg"
