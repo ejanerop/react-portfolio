@@ -55,12 +55,14 @@ const Contact = () => {
                         <input type="hidden" name="form-name" value="contact" />
                         <input
                             type="text"
+                            id="name"
                             name="name"
                             className="form-control form-control-lg"
                             placeholder="Name"
                             required
                         />
                         <input
+                            id="email"
                             type="email"
                             name="email"
                             className="form-control form-control-lg mt-3"
