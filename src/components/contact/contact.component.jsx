@@ -79,11 +79,11 @@ const Contact = () => {
                                 required
                                 placeholder="Your message"></textarea>
                         </div>
-                        <button
+                        <input
                             type="submit"
-                            className="btn btn-outline-dark mt-3">
-                            Contact Me
-                        </button>
+                            className="btn btn-outline-dark mt-3"
+                            value={"Contact Me"}
+                        />
                     </form>
                 </div>
             </div>
