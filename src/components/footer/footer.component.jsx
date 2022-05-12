@@ -33,8 +33,8 @@ const Footer = () => {
                             </li>
                             <li>
                                 <SocialIcon
-                                    url="https://twitter.com/@eric_j_p_"
-                                    title="@eric_j_p_ on twitter"
+                                    url="https://twitter.com/@eric_janero"
+                                    title="@eric_janero on twitter"
                                     icon="fa-twitter"
                                 />
                             </li>
