@@ -18,7 +18,7 @@ export default function About() {
                         />
                     </div>
                     <div className="col-lg-6 about-info">
-                        <h1 className="display-5 lh-1 mb-3">About me</h1>
+                        <h2 className="display-5 lh-1 mb-3">About me</h2>
                         <p className="lead">
                             I'm a software engineer graduated from the
                             Technological University of Havana (CUJAE) in

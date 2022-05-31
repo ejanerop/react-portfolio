@@ -37,7 +37,7 @@ export default function Skills() {
     ];
     return (
         <section id="skills-section">
-            <h1 className="display-5 lh-1 mb-3">My top skills</h1>
+            <h2 className="display-5 lh-1 mb-3">My top skills</h2>
             <div className="skills-container">
                 {skills.map((skill, index) => (
                     <div key={index} className="col-12 col-md-3 skill">

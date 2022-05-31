@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 export default function Experience() {
     return (
         <section id="experience-section">
-            <h1 className="display-5 lh-1 mb-5">Experience</h1>
+            <h2 className="display-5 lh-1 mb-5">Experience</h2>
             <VerticalTimeline lineColor={"#1F1F1F"}>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"

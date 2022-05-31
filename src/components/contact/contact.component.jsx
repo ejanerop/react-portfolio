@@ -5,7 +5,7 @@ import "./contact.component.scss";
 const Contact = () => {
     return (
         <section id="contact-section">
-            <h1 className="section-title mb-5">Contact</h1>
+            <h2 className="section-title mb-5">Contact</h2>
 
             <div className="row mx-4">
                 <div

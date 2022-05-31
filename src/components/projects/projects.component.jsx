@@ -56,9 +56,9 @@ class Projects extends Component {
 
         return (
             <section id="projects">
-                <h1 className="section-title mb-5" style={{color: "black"}}>
+                <h2 className="section-title mb-5" style={{color: "black"}}>
                     Projects
-                </h1>
+                </h2>
                 <div className="col-md-12 mx-auto">
                     <div className="row mx-auto">{projects}</div>
                 </div>
