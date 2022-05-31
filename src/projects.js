@@ -1,15 +1,15 @@
-import Rick1 from "./assets/rick1.png";
-import Rick2 from "./assets/rick2.png";
-import Quotes1 from "./assets/quotes1.png";
-import Quotes2 from "./assets/quotes2.png";
-import Gitlab from "./assets/gitlab2.png";
-import Gitlab2 from "./assets/gitlab3.png";
-import Gdrive1 from "./assets/gdrive1.png";
-import Gdrive2 from "./assets/gdrive2.png";
-import Coffee1 from "./assets/coffee1.png";
-import UltimoBote1 from "./assets/ultimo-bote.png";
-import UltimoBote2 from "./assets/ultimo-bote2.png";
-import UltimoBote3 from "./assets/ultimo-bote3.png";
+import Rick1 from "./assets/rick1.webp";
+import Rick2 from "./assets/rick2.webp";
+import Quotes1 from "./assets/quotes1.webp";
+import Quotes2 from "./assets/quotes2.webp";
+import Gitlab from "./assets/gitlab2.webp";
+import Gitlab2 from "./assets/gitlab3.webp";
+import Gdrive1 from "./assets/gdrive1.webp";
+import Gdrive2 from "./assets/gdrive2.webp";
+import Coffee1 from "./assets/coffee1.webp";
+import UltimoBote1 from "./assets/ultimo-bote.webp";
+import UltimoBote2 from "./assets/ultimo-bote2.webp";
+import UltimoBote3 from "./assets/ultimo-bote3.webp";
 
 const projects = [
     {
