@@ -39,7 +39,7 @@ const Contact = () => {
                                 }}
                                 title="map"
                                 frameBorder="0"
-                                src="https://www.google.com/maps/embed/v1/place?q=Santiago+de+las+Vegas&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                src="https://maps.google.com/maps?q=Burjassot&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
                         </div>
                         <a
                             className="googlecode"
